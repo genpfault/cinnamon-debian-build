@@ -1,0 +1,39 @@
+[submodule "nemo-extensions"]
+	path = nemo-extensions
+	url = https://github.com/linuxmint/nemo-extensions.git
+[submodule "cinnamon-screensaver"]
+	path = cinnamon-screensaver
+	url = https://github.com/linuxmint/cinnamon-screensaver.git
+[submodule "nemo"]
+	path = nemo
+	url = https://github.com/linuxmint/nemo.git
+[submodule "muffin"]
+	path = muffin
+	url = https://github.com/linuxmint/muffin.git
+[submodule "cinnamon-settings-daemon"]
+	path = cinnamon-settings-daemon
+	url = https://github.com/linuxmint/cinnamon-settings-daemon.git
+[submodule "cinnamon-session"]
+	path = cinnamon-session
+	url = https://github.com/linuxmint/cinnamon-session.git
+[submodule "cinnamon-translations"]
+	path = cinnamon-translations
+	url = https://github.com/linuxmint/cinnamon-translations.git
+[submodule "cinnamon-desktop"]
+	path = cinnamon-desktop
+	url = https://github.com/linuxmint/cinnamon-desktop.git
+[submodule "cinnamon-control-center"]
+	path = cinnamon-control-center
+	url = https://github.com/linuxmint/cinnamon-control-center.git
+[submodule "cinnamon-menus"]
+	path = cinnamon-menus
+	url = https://github.com/linuxmint/cinnamon-menus.git
+[submodule "cjs"]
+	path = cjs
+	url = https://github.com/linuxmint/cjs.git
+[submodule "cinnamon"]
+	path = cinnamon
+	url = https://github.com/linuxmint/Cinnamon.git
+[submodule "mozjs38"]
+	path = mozjs38
+	url = https://git.launchpad.net/~jbicha/ubuntu/+source/mozjs38
