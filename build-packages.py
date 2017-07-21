@@ -32,20 +32,6 @@ def build_package(package, options):
     package = os.path.basename(package)
     os.chdir(package)
 
-    # patch up debian/changelog to satisfy (native) format requirements
-    print 'Patching debian/changelog...'
-    suffix = '+git.' + head
-    orig_changelog_file = codecs.open('debian/changelog', encoding='utf-8', mode='r')
-    orig_changelog = orig_changelog_file.read().splitlines()
-    orig_changelog_file.close()
-    new_changelog = orig_changelog
-    new_changelog[0] = new_changelog[0].replace(')', suffix + ')')
-    for i in range(10):
-        new_changelog[0] = new_changelog[0].replace('-' + str(i), '')
-    new_changelog_file = codecs.open('debian/changelog', encoding='utf-8', mode='w')
-    new_changelog_file.write('\n'.join(new_changelog))
-    new_changelog_file.close()
-
     # discover and install build dependencies
     if options.install_deps:
         print 'Installing build dependencies...'
@@ -95,6 +81,7 @@ if len(packages) == 0:
         'cinnamon-menus',
         'cinnamon-session',
         'cinnamon-settings-daemon',
+        'python-xapp',
         'cinnamon-screensaver',
         'mozjs38',
         'cjs',

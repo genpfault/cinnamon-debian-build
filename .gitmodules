@@ -37,3 +37,6 @@
 [submodule "mozjs38"]
 	path = mozjs38
 	url = https://git.launchpad.net/~jbicha/ubuntu/+source/mozjs38
+[submodule "python-xapp"]
+	path = python-xapp
+	url = https://github.com/linuxmint/python-xapp.git
